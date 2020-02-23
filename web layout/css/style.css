@@ -1,0 +1,115 @@
+/*
+Web Layout
+http://www.bholait.com
+*/
+
+/*-----------------------------------------------------------------------------------*/
+							/*	Design By Md Mizanur Rahaman Santo */							
+/*-----------------------------------------------------------------------------------*/
+*{
+	padding:0px;
+	margin:0px;
+	border:0px;
+}
+
+body{
+		background: #eee9e9;
+}
+
+/*code content*/
+.content{
+	background: #89d2dc;
+	width: 900px;
+	margin:0px auto;
+	
+}
+
+/*code head*/
+.head{
+	background: #6564db;
+	height: 70px;
+	color: white;
+	text-transform: uppercase;
+	display:block;
+	text-align: center;
+	}
+	
+
+
+/*code notic*/
+.notic{
+	padding: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	
+}
+
+
+/*code nav*/
+.nav{
+	background: #232ed1;
+	height: 50px;
+}
+.nav ul li{
+	text-transform: uppercase;
+	list-style: none;
+	
+		
+}
+.nav ul li a{
+	text-decoration: none;
+	color: white;
+	background: #beddb2;
+	padding: 15px;
+	border-right: 3px solid black;	
+	float: left;
+}
+
+.nav ul li :hover {
+	background: red;
+	
+	}
+
+
+/*code maincontent*/
+.maincontent{
+	background: #101d42;
+	width: 100%;
+	height: 100%;
+}
+
+/*code main*/
+.main{
+	width: 70%;
+	height: 100%;
+	float: left;
+	
+}
+
+/*code sidebar*/
+.sidebar{
+	background: #839dac;
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+
+/*code footer*/
+.footer{
+	background: #0d1317;
+	height: 25px;
+	width: 100%;
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+	border-top: 1px dotted white;	
+}
+
+
+/*code responsive*/
+
+@media scree and (max-width:600){
+	.content{
+		width: 500px;
+	}
+}
